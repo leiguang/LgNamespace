@@ -13,6 +13,8 @@
 		9A1959062435997A001C009A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1959042435997A001C009A /* Main.storyboard */; };
 		9A1959082435997C001C009A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1959072435997C001C009A /* Assets.xcassets */; };
 		9A19590B2435997C001C009A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1959092435997C001C009A /* LaunchScreen.storyboard */; };
+		9A195914243599AD001C009A /* Lg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A195913243599AD001C009A /* Lg.swift */; };
+		9A19591624359A08001C009A /* Lg+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19591524359A08001C009A /* Lg+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9A1959072435997C001C009A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A19590A2435997C001C009A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A19590C2435997C001C009A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A195913243599AD001C009A /* Lg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lg.swift; sourceTree = "<group>"; };
+		9A19591524359A08001C009A /* Lg+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lg+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9A1958FE2435997A001C009A /* AppDelegate.swift */,
 				9A1959002435997A001C009A /* SceneDelegate.swift */,
 				9A1959022435997A001C009A /* ViewController.swift */,
+				9A195913243599AD001C009A /* Lg.swift */,
+				9A19591524359A08001C009A /* Lg+UIViewController.swift */,
 				9A1959042435997A001C009A /* Main.storyboard */,
 				9A1959072435997C001C009A /* Assets.xcassets */,
 				9A1959092435997C001C009A /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1959032435997A001C009A /* ViewController.swift in Sources */,
+				9A19591624359A08001C009A /* Lg+UIViewController.swift in Sources */,
 				9A1958FF2435997A001C009A /* AppDelegate.swift in Sources */,
+				9A195914243599AD001C009A /* Lg.swift in Sources */,
 				9A1959012435997A001C009A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
